@@ -1,0 +1,47 @@
+main {
+	background-color: #eeeeee;
+	width: 99%;
+	margin:  auto;
+	margin-top: 35px;
+	border-radius: 5px;
+	padding: 2px;
+	box-sizing: border-box;
+}
+#title {
+	text-align: center;
+	font-size: 80px;
+}
+p {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+ul {
+	max-width: 600px;
+	text-align: left;
+	margin: 0 auto;
+}
+.bold {
+	font-weight: bold;
+}
+#img-div {
+	background-color: #fff;
+	padding-bottom: 15px;
+}
+#img-caption {
+	text-align: center;
+}
+#image {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+#annotation {
+	max-width: 600px;
+	margin: 20px auto 20px;
+
+}
+ul > li {
+	margin-top: 17px;
+}
