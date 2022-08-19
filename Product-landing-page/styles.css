@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}   
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #eeeeee;
+}
+#header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #eeeeee;
+}
+#header-img {
+    width: 50rem;
+
+}
+#nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 2rem;
+   align-items: center;
+   
+   z-index: 2;
+   border-bottom: 1rem solid #eeeeee;
+   
+}
+a.nav-link {
+    text-decoration: none;
+    color: #513a1d;
+}
+#main-heading {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 7rem;
+}
+#email {
+    width: 20%;
+    display: block;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+#submit {
+   
+    display: block;
+    margin: 1rem auto;
+    background-color: yellow;
+    color: black;       
+    border: none;
+    padding: 0.5rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    
+}
+#features {
+    margin: 5% 10%;
+    
+}
+.feature {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-bottom: 2rem;
+    
+}
+.icon {
+    text-align: right;
+    padding-right: 6rem;
+    font-size: 2rem;
+}
+.desc {
+    margin: auto 0;
+    font-size: 1.5rem;
+}
+iframe {
+    display: block;
+    width: 55rem;
+    height: 35rem;
+    margin: 0px auto;
+}
+#pricing {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.pricing-container {
+    margin: 2rem;
+    border: 0.1rem solid black;
+    text-align: center;
+}
+.pricing-header {
+    width: 100%;
+    height: 4rem;
+    background-color: #dddddd;    
+}
+.pricing-header h3 {
+    padding-top: 3%;
+}
+.price {
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+    font-size: 2.5rem;
+}
+.price-desc {
+    
+    font-size: 2rem;
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.select-button {
+    
+    display: block;
+    margin: 1rem auto;
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-weight: bold;
+    border-radius: 0.2rem;
+}
+footer {
+    width: 70%;
+    margin: 3rem auto 0;
+    background-color: #dddddd;
+    text-align: right;
+    padding: 2rem;
+}
+footer a {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color: black;
+
+}
+footer p {
+    font-size: 1.4rem;
+    color: #6c5a5a;
+}
+@media (max-width: 500px){
+    #header{
+        grid-template-columns: 1fr;
+    }
+    #nav-bar {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .feature {
+        grid-template-columns: 1fr;
+    }
+    .icon {
+        display: none;
+    }
+    #pricing {
+        flex-direction: column;
+    }
+}
